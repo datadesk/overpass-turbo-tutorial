@@ -1,6 +1,18 @@
-# overpass-turbo-turorial
+# overpass-turbo-tutorial
 
-OpenStreetMap has a ton of data...on some things. It's a good place to get "base map" data like roads, rivers or other features. Addresses, businesses and other amenties may not be complete. But you can improve the data to make them complete!
+OpenStreetMap has a ton of data...on some things. It's a good place to get "base map" data like roads, rivers or other features. Addresses, businesses and other amenities may not be complete. But you can improve the data to make them complete!
+
+# Index
+
+- [Get all drinking fountains in Griffith Park](#get-all-drinking-fountains-in-griffith-park)
+- [Get all the freeways](#get-all-the-freeways)
+- [Download Everything!](#download-everything)
+- [Define your own bounds](#define-your-own-bounds)
+- [Drinking fountains of yore in Griffith Park (before Anthony added some more)](#drinking-fountains-of-yore-in-griffith-park-before-anthony-added-some-more)
+- [Request too big?](#request-too-big)
+- [More Examples](#more-examples)
+
+***
 
 First, let's take a look at the interface.
 
@@ -8,7 +20,7 @@ Buttons:
 - **Run** fires off the code in the window. Result appears on the map to the right.
 - **Share** gives you a link of the current query to..umm...share
 - **Export** makes a sandwich. No! It allows you to download the result in GeoJSON, GPX, KML or XML.
-- **Wizard** helps your construct queries
+- **Wizard** helps you construct queries
 - **Save** keeps your query for the future
 - **Load** brings up any saved queries
 - **Settings** pick a new background, language and spin cycle
@@ -20,9 +32,9 @@ A good start is defining what you want in terms of OSM's tags.
 
 ## Get all drinking fountains in Griffith Park
 
-For instance, to download all the water fountains in Griffith Park you'll need to use OSM's tag [amenity=drinking_watter](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water). A quick Google search of search of the OSM Wiki will help you.
+For instance, to download all the water fountains in Griffith Park you'll need to use OSM's tag [amenity=drinking_water](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water). A quick Google search of search of the OSM Wiki will help you.
 
-The easiest thing to do is to drop `amenity=drinking_watter` into Overpass turbo's "Wizard" if the map is showing Griffith Park.
+The easiest thing to do is to drop `amenity=drinking_water` into Overpass turbo's "Wizard" if the map is showing Griffith Park.
 
 ![drinkingwater](https://cloud.githubusercontent.com/assets/695934/17908091/d1466a30-6933-11e6-995f-db7df8a73eb6.gif)
 
